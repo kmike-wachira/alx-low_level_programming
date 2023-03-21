@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * _islower - function to print alphabets
+ * _islower - function to print alphabets.
  *
- * Description : take any input return 1 or 0
+ * @c : The character to be checked.
  *
- *@c : take in input for character to check
- *
- * Return : 1 if character is lcase , 0 if otherwise
+ * Return: 1 (Success) if character is lowercase, 0 (Failure)  otherwise.
  */
 int _islower(int c)
 {
