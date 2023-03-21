@@ -10,17 +10,17 @@ int main(void)
 	int j;
 	for (j = 0; j < 10; j++)
 	{
-		print_alphabet();
+		print_alphabet_x10();
 	}
 	return (0);
 }
 
 /**
- *print_alphabet - function to print alphabets
+ *print_alphabet_x10 - function to print alphabets
  *
  *
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char i;
 
