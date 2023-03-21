@@ -11,11 +11,6 @@ int main(void)
 	return (0);
 }
 
-/**
- *print_alphabet - function to print alphabets
- *
- *
- */
 void print_alphabet(void)
 {
 	char i;
