@@ -1,16 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - print from a-z
  *
- * Return: Always 0 (Success)
+ * no return type
  */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	char i;
