@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * _print_sign - function to print the sign.
+ * print_sign - function to print the sign.
  *
- * @c : The character to be checked.
+ * @n : The character to be checked.
  *
  * Return: 1 if greater than zero, 0 is zero.-1 for -ve
  */
-int _print_sign(int c)
+int print_sign(int n)
 {
 
-	if (c > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (c < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);
