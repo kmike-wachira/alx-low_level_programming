@@ -18,9 +18,9 @@ int main(void)
  */
 void print_alphabet(void)
 {
-	char i = 'a';
+	char i;
 
-	for (i; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
 	}
