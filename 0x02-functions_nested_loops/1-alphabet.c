@@ -1,13 +1,9 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
-/*declare function print alphabet*/
-void print_alphabet(void);
 
 int main(void)
 {
@@ -26,7 +22,7 @@ void print_alphabet(void)
 
 	for (i; i <= 'z'; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
