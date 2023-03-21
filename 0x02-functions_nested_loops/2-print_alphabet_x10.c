@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -7,11 +6,11 @@
  */
 
 /*declare function print alphabet*/
-void print_alphabet(void);
 
 int main(void)
 {
-	for (int j = 0; j < 10; j++)
+	int j;
+	for (j = 0; j < 10; j++)
 	{
 		print_alphabet();
 	}
@@ -25,11 +24,11 @@ int main(void)
  */
 void print_alphabet(void)
 {
-	char i = 'a';
+	char i;
 
-	for (i; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
