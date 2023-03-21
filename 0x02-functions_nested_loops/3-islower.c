@@ -6,7 +6,7 @@
  *
  *@c : take in input for character to check
  *
- * Return : 1 if true and 0 if not true
+ * Return : 1 if character is lcase , 0 if otherwise
  */
 int _islower(int c)
 {
