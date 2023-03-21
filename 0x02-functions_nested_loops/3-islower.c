@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -7,16 +6,15 @@
  */
 
 /*declare function print alphabet*/
-int _islower(int c);
 
 int main(void)
 {
 	int result;
 
-	result = _islower(87);
+	result = _islower('B');
 
-	putchar(result + '0');
-
+	_putchar(result + '0');
+	_putchar('\n');
 	return (0);
 }
 
@@ -32,7 +30,7 @@ int main(void)
 int _islower(int c)
 {
 
-	if (c >= 97 || c <= 122)
+	if (c >= 'a' || c <= 'z')
 		return (1);
 	else
 		return (0);
