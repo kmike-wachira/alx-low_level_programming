@@ -5,8 +5,6 @@
  * Return: Always 0 (Success)
  */
 
-/*declare function print alphabet*/
-
 int main(void)
 {
 	int j;
