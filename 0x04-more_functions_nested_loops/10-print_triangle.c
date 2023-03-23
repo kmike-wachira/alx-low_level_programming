@@ -1,17 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-/**
- * main -main func
- *
- * Return: Always zero
- *
- */
-int main(void)
-{
-	print_triangle(10);
-
-	return (0);
-}
 /**
  *print_triangle -print a triangle
  *
