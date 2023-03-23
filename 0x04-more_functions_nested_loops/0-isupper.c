@@ -1,13 +1,17 @@
 #include "main.h"
 /**
  * _isupper - check whether character is upper
+ *
+ * Return: Always 0 if false or 1 if true
+ *
+ * @c : Charater to check
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
-	if ( c >= 'A' || c <= 'Z')
+	if (c >= 'A' || c <= 'Z')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
