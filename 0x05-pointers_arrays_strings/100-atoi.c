@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 /**
  * _atoi - converts string to integer.
  * @s: the string to convert /parameter
