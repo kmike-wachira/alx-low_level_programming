@@ -1,6 +1,6 @@
 #include "mainh"
 /**
- * * _atoi - converts string to integer.
+ * _atoi - converts string to integer.
  * @s: the string to convert
  * Return: the converted string.
  */
