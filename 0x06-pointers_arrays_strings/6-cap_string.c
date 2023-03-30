@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * *cap_string - capitalizes all words of a string as entered
  * @str: the string to change the first letter of a word in uppercase
